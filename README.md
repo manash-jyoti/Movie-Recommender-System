@@ -34,9 +34,11 @@ To run the movie recommendation system locally, follow these steps:
 
 1. Clone the repository: `git clone https://github.com/<your_username>/<repo_name.git>`
 
-2. Install the required dependencies: `!pip install -r requirements.txt`
+2. As the size of similarity.pkl > 25 MB, consider running the jupyter notebook to generate the file and put it in the same directory as of app.py
 
-3. Run the Streamlit web app: `streamlit run app.py`
+3. Install the required dependencies: `!pip install -r requirements.txt`
+
+4. Run the Streamlit web app: `streamlit run app.py`
 
 ## :five: Usage/Examples
 
