@@ -4,6 +4,20 @@ This is a movie recommendation system developed using Python, utilizing a datase
 
 The recommendation system employs a content-based filtering approach using Cosine Similarity. The textual information in the "tags" column is transformed using CountVectorizer, enabling the calculation of similarity scores between movies.
 
+## Introduction
+
+A movie recommendation system is a software application or algorithm designed to suggest movies to users based on their preferences and past interactions. Recommendation systems are widely used in various domains, including e-commerce, music streaming, and video-on-demand platforms, to provide personalized recommendations and enhance user experiences.
+
+## Recommendation Techniques
+
+There are several techniques commonly used in recommendation systems. Here are a few notable ones:
+
+1. Content-Based Filtering: This approach recommends items (movies in this case) based on their content or attributes. It analyzes the characteristics or features of items and matches them to the user's preferences. In this project, a content-based filtering technique is employed using Cosine Similarity to measure the similarity between movies based on their textual information.
+
+2. Collaborative Filtering: Collaborative filtering recommends items based on the preferences and behaviors of similar users or items. It uses historical data, such as user ratings or interactions, to find patterns and make recommendations. Collaborative filtering can be further categorized into user-based or item-based filtering, depending on whether similarities are calculated between users or items.
+
+3. Hybrid Approaches: Hybrid recommendation systems combine multiple techniques to leverage the strengths of different approaches. By integrating content-based and collaborative filtering, for example, hybrid systems can provide more accurate and diverse recommendations.
+
 
 ## Features
 
