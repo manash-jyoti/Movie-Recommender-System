@@ -32,7 +32,7 @@ The datasets used in this project are obtained from Kaggle and contain 10,000 mo
 
 To run the movie recommendation system locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/<your_username>/<repo_name.git>`
+1. Clone the repository: `git clone https://github.com/manash-jyoti/Movie-Recommender-System.git>`
 
 2. As the size of similarity.pkl > 25 MB, consider running the jupyter notebook to generate the file and put it in the same directory as of app.py
 
